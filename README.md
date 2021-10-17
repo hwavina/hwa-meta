@@ -38,7 +38,7 @@ composer require hwavina/hwa-meta
 );
 ```
 
-3. You can customize the [`config/hwa_meta.php` config file](https://github.com/hwavina/hwa-meta/blob/master/config/hwa_meta.php) . If you customize file `config/hwa_meta.php`. You need to run the command below to clear cache and update the changes.
+3. You can customize the [`config/hwa_meta.php` config file](https://github.com/hwavina/hwa-meta/blob/main/config/hwa_meta.php) . If you customize file `config/hwa_meta.php`. You need to run the command below to clear cache and update the changes.
 
 ```shell script
 php artisan config:cache
@@ -52,7 +52,7 @@ php artisan optimize:clear
 
 You can view the default config file contents at:
 
-[https://github.com/hwavina/hwa-meta/blob/master/config/hwa_meta.php](https://github.com/hwavina/hwa-meta/blob/master/config/hwa_meta.php)
+[https://github.com/hwavina/hwa-meta/blob/main/config/hwa_meta.php](https://github.com/hwavina/hwa-meta/blob/main/config/hwa_meta.php)
 
 ## Usage
 
