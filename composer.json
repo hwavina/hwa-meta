@@ -1,0 +1,57 @@
+{
+    "name": "hwavina/hwa-meta",
+    "description": "Laravel package meta data",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "hoangphidev",
+        "hwavina",
+        "metatools",
+        "meta-tools",
+        "package",
+        "laravel",
+        "laravel-metatools",
+        "laravel-meta",
+        "laravel-package",
+        "laravel-package-meta",
+        "hwa-metatools",
+        "hwa-meta",
+        "package",
+        "laravel",
+        "laravel-package",
+        "hoangphi-hwa-meta",
+        "hoangphidev-hwa-meta"
+    ],
+    "homepage": "https://github.com/hwavina/hwa-meta",
+    "authors": [
+        {
+            "name": "Phi Hoang",
+            "email": "hoangphi.dev@gmail.com",
+            "homepage": "https://github.com/hoangphidev",
+            "role": "Maintainer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2|^8.0",
+        "illuminate/support": "^5.8|^6|^7|^8",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hwavina\\HwaMeta\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hwavina\\HwaMeta\\HwaMetaServiceProvider"
+            ]
+        }
+    },
+    "prefer-stable": true
+}
